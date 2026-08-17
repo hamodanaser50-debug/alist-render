@@ -1,2 +1,3 @@
 FROM haroldli/alist-tvbox:latest
-EXPOSE 5244
+ENV PORT=80
+EXPOSE 80
